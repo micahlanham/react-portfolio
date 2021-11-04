@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000" />
+    <meta property="og:title" content="React Portfolio" />
+    <meta property="og:description" content="Made by Micah Lanahm" />
+    <meta property="og:image" content="%PUBLIC_URL%/react.jpeg" />
+    <meta property="og:url" content="https://github.com/micahlanham/react-portfolio.git" />
+    <meta property="og:site_name" content="https://github.com/micahlanham" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React Portfolio App</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        function copyCheck() {
+        setTimeout(function () {
+          if (document.getElementById("myInfo") === null) {
+            
+          } else if (
+            document.getElementById("myInfo").innerText === null ||
+            document.getElementById("myInfo").innerText !== "Micah Lanham"
+          ) {
+            
+          } else {
+            return;
+          }
+        }, 30000);
+      }
+      copyCheck();
+    </script>
+    
+</body>
+</html>
