@@ -45,3 +45,27 @@ export const skillData = [
         name: "GitHub",
     },
 ];
+
+export const filteredProjects = [
+    "Background-Generator",
+    "github-react-portfolio-template",
+    "notepad",
+];
+
+export const projectData = [
+    {
+        image: colors,
+    },
+    {
+        image: react,
+    },
+    {
+        image: notepad,
+    },
+];
+
+export const contactInfo = {
+    email: "",
+    phone: "",
+    mailChimp: "https://www.mailchimp.com/",
+};
