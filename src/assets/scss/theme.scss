@@ -1,0 +1,46 @@
+$reactBlue: #61dbfb;
+
+
+@mixin darkTheme() {
+  background-color: black;
+  color: white;
+  
+  .custom-control-input:focus ~ .custom-control-label::before {
+    border-color: black !important;
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+  }
+  .custom-control-input ~ .custom-control-label::before {
+    background-color: black !important;
+    border-color: black !important;
+  }
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: black !important;
+    border-color: black !important;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+
+@mixin lightTheme() {
+  background-color: #f8f8ff;
+  color: #292b2c;
+  
+  .custom-control-input:focus ~ .custom-control-label::before {
+    border-color: black !important;
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+  }
+  .custom-control-input ~ .custom-control-label::before {
+    background-color: $reactBlue !important;
+    border-color: $reactBlue !important;
+  }
+  
+  a {
+    color: #292b2c;
+  }
+  .card-title {
+    color: #f7f7f7;
+  }
+}
