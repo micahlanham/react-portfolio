@@ -7,7 +7,6 @@ import {
 import { SiJavascript } from "react-icons/si";
 
 import budget from "./assets/images/budget.png";
-import social from "./assets/images/social.jpeg";
 import weather from "./assets/images/weather.png";
 
 export const githubUsername = "micahlanham";
@@ -42,16 +41,12 @@ export const skillData = [
 
 export const filteredProjects = [
     "budget-tracker",
-    "social-network-API",
     "Weather-dashboard",
 ];
 
 export const projectData = [
     {
         image: budget,
-    },
-    {
-        image: social,
     },
     {
         image: weather,
