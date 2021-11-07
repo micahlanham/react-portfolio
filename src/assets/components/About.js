@@ -3,7 +3,7 @@ import { FaChevronCircleDown } from  "react-icons/fa";
 import NavBar from "../containers/NavBar";
 import SocialLinks from "./SocialLinks";
 
-import logo from "../images/social.jpeg";
+import logo from "../images/logo.svg";
 
 const About = ({ theme, setTheme, githubUrl, name, link, bio }) => {
     const newTheme = `${theme} d-flex flex-column min-vh-100 justify-content-center`;
