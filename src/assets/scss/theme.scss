@@ -1,8 +1,8 @@
-$reactBlue: #61dbfb;
+$reactBlue: #4441eb;
 
 
 @mixin darkTheme() {
-  background-color: black;
+  background-color: rgb(68, 16, 16);
   color: white;
   
   .custom-control-input:focus ~ .custom-control-label::before {

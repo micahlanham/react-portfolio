@@ -7,7 +7,6 @@ import {
 import { SiJavascript } from "react-icons/si";
 
 import budget from "./assets/images/budget.png";
-import social from "./assets/images/social.jpeg";
 import weather from "./assets/images/weather.png";
 
 export const githubUsername = "micahlanham";
@@ -49,9 +48,6 @@ export const filteredProjects = [
 export const projectData = [
     {
         image: budget,
-    },
-    {
-        image: social,
     },
     {
         image: weather,
