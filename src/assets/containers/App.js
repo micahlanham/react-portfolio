@@ -52,6 +52,7 @@ const App = () => {
     name: data.name,
     link: data.blog,
     bio: data.bio,
+    twitter: data.twitter_username,
   };
 
   return (
@@ -65,6 +66,7 @@ const App = () => {
       <Footer
         githubUrl={homeData.githubUrl}
         link={homeData.link}
+        twitter={homeData.twitter}
       />
     </>
   );
