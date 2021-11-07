@@ -24,9 +24,9 @@ return (
           height="45%"
           width="45%"
         />
-        <h1>{name}</h1>
+        <h1>Micah Lanham</h1>
         <hr />
-        <p>{bio}</p>
+        <p>Coding student</p>
         <SocialLinks {...socialData} />
         <Link className="scroll" to="skills" smooth={true} duration={750}>
           <FaChevronCircleDown id="scroll-down" />
