@@ -113,7 +113,7 @@ const Projects = ({ theme, githubUsername }) => {
             {data.map((projects) => {
               return (
                 <Card key={projects.id}>
-                  <Card.Img variant="top" src={defualtImage} />
+                  <Card.Img variant="top" src={defaultImage} />
                   <Card.Body>
                     <a href={projects.html_url} target="_blank" rel="noreferrer">
                       <Card.Title className="d-inline-block">

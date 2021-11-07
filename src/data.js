@@ -1,7 +1,6 @@
 import {
     FaHtml5,
     FaCss3Alt,
-    FaBoostrap,
     FaReact,
     FaGithubSquare,
 } from "react-icons/fa";
@@ -28,11 +27,6 @@ export const skillData = [
         id: 3,
         skill: <SiJavascript className="display-4" />,
         name: "Javascript",
-    },
-    {
-        id: 4,
-        skill: <FaBoostrap className="display-4" />,
-        name: "Bootstrap",
     },
     {
         id: 5,
