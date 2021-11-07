@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { githubUsername } from "../../data.js";
-import { AppLoading, AppError } from "../components/appLoadingError.js";
-import About from "../components/About.js";
-import Skills from "../components/Skills.js";
-import Projects from "./Projects.js";
-import Contact from "../components/Contact.js";
-import Footer from "../components/Footer.js";
+import { githubUsername } from "../../data";
+import { AppLoading, AppError } from "../components/appLoadingError";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "./Projects";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
