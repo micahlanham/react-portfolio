@@ -7,9 +7,9 @@ import {
 } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 
-import colors from "";
-import react from "";
-import notepad from "";
+import budget from "./assets/images/budget.png";
+import social from "./assets/images/social.jpeg";
+import weather from "./assets/images/weather.png";
 
 export const githubUsername = "micahlanham";
 
@@ -47,25 +47,25 @@ export const skillData = [
 ];
 
 export const filteredProjects = [
-    "Background-Generator",
-    "github-react-portfolio-template",
-    "notepad",
+    "Budget-tracker",
+    "Social-network-api",
+    "Weather-dashboard",
 ];
 
 export const projectData = [
     {
-        image: colors,
+        image: budget,
     },
     {
-        image: react,
+        image: social,
     },
     {
-        image: notepad,
+        image: weather,
     },
 ];
 
 export const contactInfo = {
-    email: "",
-    phone: "",
+    email: "micahlanham@gmail.com",
+    phone: "(352) 568-5158",
     mailChimp: "https://www.mailchimp.com/",
 };
