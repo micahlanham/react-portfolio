@@ -13,7 +13,11 @@
             "sizes": "192x192"
         },
         {
+<<<<<<< HEAD
             "src": "logo512.png",
+=======
+            "src": "logo512",
+>>>>>>> b9bc6c6c143a88cfd3c128c14f89028f9576d2ea
             "type": "image/png",
             "sizes": "512x512"
         }

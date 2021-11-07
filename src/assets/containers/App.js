@@ -3,7 +3,7 @@ import { githubUsername } from "../../data";
 import { AppLoading, AppError } from "../components/appLoadingError";
 import About from "../components/About";
 import Skills from "../components/Skills";
-import Projects from "./Projects";
+import Projects from "./Project";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 

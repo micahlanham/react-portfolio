@@ -47,8 +47,8 @@ export const skillData = [
 ];
 
 export const filteredProjects = [
-    "Budget-tracker",
-    "Social-network-api",
+    "budget-tracker",
+    "social-network-API",
     "Weather-dashboard",
 ];
 
